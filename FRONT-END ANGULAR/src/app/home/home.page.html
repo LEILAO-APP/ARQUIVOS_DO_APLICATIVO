@@ -1,0 +1,65 @@
+<ion-content>  
+  <ion-toolbar>           
+    <ion-title>LANCE</ion-title > 
+      <ion-row>
+        <ion-col size= "12">    
+          <ion-input placeholder="Pesquise aqui"></ion-input>
+          <div id = "conteiner">    
+            <ion-grid>
+              <ion-row>
+                <ion-col >
+                  <ion-button size= "medium" expand = "block" shape= "roud" name="hammer-outline" routerLink= "/nova">
+                    <ion-icon size = "large" name="hammer-outline"></ion-icon></ion-button>
+                </ion-col>
+              </ion-row>
+            </ion-grid>
+          </div>     
+  </ion-col>
+</ion-row>      
+  </ion-toolbar>
+  <ion-list>
+    <ion-item>
+      <ion-label>Eletrodomésticos</ion-label>
+      <ion-button  name="hammer-outline" routerLink= "/eletrodomesticos">
+        <ion-icon name="tv-outline"></ion-icon></ion-button>      
+    </ion-item>
+    <ion-item>
+      <ion-label>Casa</ion-label>
+      <ion-button  name="hammer-outline" routerLink= "/casa">
+        <ion-icon name="home-outline"></ion-icon></ion-button>
+    </ion-item>
+    <ion-item>
+      <ion-label>Acessórios de Tecnologia</ion-label>
+      <ion-button  name="hammer-outline" routerLink= "/acessorios">
+        <ion-icon name="watch-outline"></ion-icon></ion-button>
+    </ion-item>
+    <ion-item>
+      <ion-label>Beleza e Perfumaria</ion-label>
+      <ion-button  name="hammer-outline" routerLink= "/beleza">
+        <ion-icon name="glasses-outline"></ion-icon></ion-button>
+    </ion-item>
+    <ion-item>
+      <ion-label>Informática</ion-label>
+      <ion-button  name="hammer-outline" routerLink= "/informatica">
+        <ion-icon name="desktop-outline"></ion-icon></ion-button>
+      </ion-item>
+      <ion-item>
+        <ion-label>Ferramentas</ion-label>
+      <ion-button  name="hammer-outline" routerLink= "/ferramentas">
+        <ion-icon name="construct-outline"></ion-icon></ion-button>
+    </ion-item>
+    <ion-item>
+      <ion-label>Dar Lance</ion-label>
+      <ion-button  name="hammer-outline" routerLink= "/lance">
+        <ion-icon name="hammer-outline"></ion-icon></ion-button>      
+    </ion-item>
+  </ion-list>
+  <ion-row>
+    <ion-col>            
+        <ion-button size="small" color="success" expand="block" shape="round" routerLink= "/criar">REGISTRAR</ion-button>      
+    </ion-col>
+    <ion-col>            
+        <ion-button size="small" color="success" expand="block" shape="round" routerLink= "/login">LOGIN</ion-button>      
+    </ion-col>
+  </ion-row>
+</ion-content>

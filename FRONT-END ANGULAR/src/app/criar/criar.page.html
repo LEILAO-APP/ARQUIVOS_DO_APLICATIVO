@@ -1,0 +1,92 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>REGISTRAR</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-button  routerLink= "/home">
+    <ion-icon name="caret-back-outline"></ion-icon>Voltar</ion-button>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title color = "success">
+              O que deseja fazer?
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-radio-group>          
+          
+              <ion-item>
+                <ion-label>Quero Vender</ion-label>
+                <ion-radio value="Client" slot = "start"></ion-radio>
+              </ion-item>
+          
+              <ion-item>
+                <ion-label>Quero Comprar</ion-label>
+                <ion-radio value="Partner" slot = "start"></ion-radio>
+              </ion-item>
+          </ion-radio-group>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title color = "success">
+               Contato
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content> 
+            <ion-item>
+              <ion-label position="floating">Nome</ion-label>
+              <ion-input type = "text"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="floating">Email</ion-label>
+              <ion-input type = "email"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="floating">Senha</ion-label>
+              <ion-input type = "senha"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="floating">Confirmar senha</ion-label>
+              <ion-input type = "senha"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="floating">Telefone com DDD</ion-label>
+              <ion-input type = "numero"></ion-input>
+            </ion-item>
+          </ion-card-content>
+        </ion-card>
+        <ion-card>
+          <ion-card-header>
+            <ion-card-title color = "success">
+              Endereço
+            </ion-card-title>
+          </ion-card-header>
+          <ion-card-content>
+            <ion-item>
+              <ion-label position="floating">País</ion-label>
+              <ion-input type = "text"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="floating">Estado</ion-label>
+              <ion-input type = "text"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="floating">Cidade</ion-label>
+              <ion-input type = "text"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="floating">CEP</ion-label>
+              <ion-input type = "numero"></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label position="floating">Número</ion-label>
+              <ion-input type = "numero"></ion-input>
+            </ion-item>
+            <ion-button color = "success" size = "full">
+              REGISTRAR
+            </ion-button>
+          </ion-card-content>
+        </ion-card>
+</ion-content>
