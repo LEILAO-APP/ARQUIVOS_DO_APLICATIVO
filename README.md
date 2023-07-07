@@ -1,4 +1,4 @@
-ccccccccccccccccccccccccccccccccccccccccccccc# DESCRIÇÃO:
+# DESCRIÇÃO:
 
 APLICATIVO DESENVOLVIDO EM JAVA E ANGULAR 
 
